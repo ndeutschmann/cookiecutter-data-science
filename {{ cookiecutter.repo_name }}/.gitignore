@@ -87,3 +87,8 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# Data is tracked with DVC
+# exclude all data from source control by default
+data/**/*.*
+!data/**/*.dvc
